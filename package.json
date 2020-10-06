@@ -29,6 +29,8 @@
     "gatsby-remark-video": "^1.2.5",
     "gatsby-remark-videos": "^0.3.5",
     "gatsby-source-filesystem": "^2.3.14",
+    "gatsby-source-s3": "^0.0.0",
+    "gatsby-source-s3-asset": "^1.4.0",
     "gatsby-transformer-remark": "^2.8.20",
     "gatsby-transformer-sharp": "^2.5.7",
     "gatsby-transformer-yaml": "^2.4.6",

@@ -3,9 +3,7 @@ date: 2019-07-22T22:44:38.000+00:00
 title: Song of Myself
 author: Ralph Waldo Emerson
 hero_image: https://cptn-test.s3.eu-west-3.amazonaws.com/heather-shevlin-3B_NrzTjajc-unsplash.jpg
-
----
-I have heard what the talkers were talking, the talk of the  
+---I have heard what the talkers were talking, the talk of the  
 beginning and the end
 
 But I do not talk of the beginning or the end. There was never any more inception than there is now, Nor any more youth or age than there is now, And will never be any more perfection than there is now,  
@@ -17,8 +15,6 @@ increase, Always a knit of identity, always distinction, always a breed of life.
 so.
 
 Clear and sweet is my soul, and clear and sweet is all that is not my soul.
-
-![](/content/images/igor-son-FV_PxCqgtwc-unsplash.jpg)
 
 Lack one lacks both, and the unseen is proved by the seen,  
 Till that becomes unseen and receives proof in its turn.
