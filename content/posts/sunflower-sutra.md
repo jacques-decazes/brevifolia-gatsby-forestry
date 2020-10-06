@@ -9,8 +9,7 @@ I walked on the banks of the tincan banana dock and sat down under the huge shad
 
 Jack Kerouac sat beside me on a busted rusty iron pole, companion, we thought the same thoughts of the soul, bleak and blue and sad-eyed, surrounded by the gnarled steel roots of trees of machinery.
 
-`video({  src = './my_video.mp4' })`
-
+`video({ src = '`[https://cptn-test.s3.eu-west-3.amazonaws.com/home-bg-old.mp4](https://cptn-test.s3.eu-west-3.amazonaws.com/home-bg-old.mp4 "https://cptn-test.s3.eu-west-3.amazonaws.com/home-bg-old.mp4")`' })`
 
 The only water on the river mirrored the red sky, sun sank on top of final Frisco peaks, no fish in that stream, no hermit in those mounts, just ourselves rheumy-eyed and hung-over like old bums on the riverbank, tired and wily.
 
