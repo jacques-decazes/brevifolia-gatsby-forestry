@@ -23,3 +23,10 @@ In relation to such a hot pouring out of the highest rank-ordering, rank-setting
 Given this origin, the word “good” was not in any way necessarily tied up with “unegoistic” actions, as the superstitions of those genealogists of morality tell us. Rather, that occurs for the first time with the collapse of aristocratic value judgments, when this entire contrast between “egoistic” and “unegoistic” pressed itself ever more strongly into human awareness—it is, to use my own words, the instinct of the herd which, through this contrast, finally gets its word (and its words). And even so, it took a long time until this instinct in the masses became ruler, with the result that moral evaluation got downright hung up and bogged down on this opposition (as is the case, for example, in modern Europe: today the prejudice that takes “moralistic,” “unegoistic,” “_désintéressé_” _\[disinterested\]_ as equally valuable ideas already governs, with the force of a “fixed idea” and a disease of the brain).
 
 ![](/content/images/elie_decazes.jpg)
+<<<<<<< HEAD
+=======
+
+![](/content/images/thegoodcompany.gif)
+
+\`video: /a8f92a46c59d852be77637d87c6e9532/style-04.mp4\`
+>>>>>>> aee356f2cf329d08438092e2dcc0dcc2ecd7393f
