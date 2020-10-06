@@ -26,7 +26,7 @@ sections:
   path: config.json
   label: Site Info
 upload_dir: ''
-public_path: https://cptn-test.s3.eu-west-3.amazonaws.com
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
