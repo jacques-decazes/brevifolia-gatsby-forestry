@@ -1,11 +1,10 @@
 ---
+
 title: On the Geneology of Morals
 date: 2019-08-16T22:37:31.000Z
 hero_image: "../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg"
 author: Friedrich Nietzsche
-
----
-So all respect to the good spirits that may govern in these historians of morality! But it’s certainly a pity that they lack the historical spirit itself, that they’ve been left in the lurch by all the good spirits of history! Collectively they all think essentially unhistorically, in the traditional manner of philosophers. Of that there is no doubt. The incompetence of their genealogies of morals reveals itself at the very beginning, where the issue is to determine the origin of the idea and of the judgment “good.”
+---So all respect to the good spirits that may govern in these historians of morality! But it’s certainly a pity that they lack the historical spirit itself, that they’ve been left in the lurch by all the good spirits of history! Collectively they all think essentially unhistorically, in the traditional manner of philosophers. Of that there is no doubt. The incompetence of their genealogies of morals reveals itself at the very beginning, where the issue is to determine the origin of the idea and of the judgment “good.”
 
 “People,” so they proclaim, “originally praised unegoistic actions and called them good from the perspective of those for whom they were done, that is, those for whom such actions were useful. Later people forgot how this praise began, and because unegoistic actions had, according to custom, always been praised as good, people then simply felt them as good, as if they were something inherently good.”
 
@@ -24,7 +23,3 @@ In relation to such a hot pouring out of the highest rank-ordering, rank-setting
 Given this origin, the word “good” was not in any way necessarily tied up with “unegoistic” actions, as the superstitions of those genealogists of morality tell us. Rather, that occurs for the first time with the collapse of aristocratic value judgments, when this entire contrast between “egoistic” and “unegoistic” pressed itself ever more strongly into human awareness—it is, to use my own words, the instinct of the herd which, through this contrast, finally gets its word (and its words). And even so, it took a long time until this instinct in the masses became ruler, with the result that moral evaluation got downright hung up and bogged down on this opposition (as is the case, for example, in modern Europe: today the prejudice that takes “moralistic,” “unegoistic,” “_désintéressé_” _\[disinterested\]_ as equally valuable ideas already governs, with the force of a “fixed idea” and a disease of the brain).
 
 ![](/content/images/elie_decazes.jpg)
-
-![](/content/images/thegoodcompany.gif)
-
-[style-04.mp4](/content/images/style-04.mp4 "style-04.mp4")

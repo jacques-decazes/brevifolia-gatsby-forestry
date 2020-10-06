@@ -10,7 +10,7 @@ module.exports = {
     about: config.about,
     contact: config.contact,
     primaryColor: config.primary_color,
-    infoData: infoData
+    infoData: infoData,
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -28,8 +28,8 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "posts",
-        path: `${__dirname}/content/posts`
-      }
+        path: `${__dirname}/content/posts`,
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
@@ -46,10 +46,10 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-sharp", 
+      resolve: "gatsby-plugin-sharp",
       options: {
-        defaultQuality: 75
-      }
+        defaultQuality: 75,
+      },
     },
     `gatsby-transformer-sharp`,
     {
@@ -59,12 +59,26 @@ module.exports = {
           "gatsby-remark-relative-images",
           "gatsby-remark-normalize-paths",
           {
+            resolve: "gatsby-remark-video",
+            options: {
+              width: 800,
+              height: "auto",
+              preload: "auto",
+              muted: true,
+              autoplay: true,
+              playsinline: true,
+              controls: true,
+              loop: true,
+            },
+          },
+          {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 1000,
               linkImagesToOriginal: false,
             },
           },
+          `gatsby-remark-copy-linked-files`,
         ],
       },
     },
