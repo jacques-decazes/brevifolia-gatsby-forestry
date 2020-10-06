@@ -59,16 +59,18 @@ module.exports = {
           "gatsby-remark-relative-images",
           "gatsby-remark-normalize-paths",
           {
-            resolve: "gatsby-remark-video",
+            resolve: "@stayradiated/gatsby-remark-video",
             options: {
-              width: 800,
-              height: "auto",
-              preload: "auto",
-              muted: true,
-              autoplay: true,
-              playsinline: true,
-              controls: true,
-              loop: true,
+              defaultAttributes: {
+                width: 800,
+                height: "auto",
+                preload: "auto",
+                muted: true,
+                autoplay: true,
+                playsinline: true,
+                controls: false,
+                loop: true,
+              },
             },
           },
           {
