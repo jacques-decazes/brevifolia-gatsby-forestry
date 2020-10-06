@@ -9,7 +9,8 @@ I walked on the banks of the tincan banana dock and sat down under the huge shad
 
 Jack Kerouac sat beside me on a busted rusty iron pole, companion, we thought the same thoughts of the soul, bleak and blue and sad-eyed, surrounded by the gnarled steel roots of trees of machinery.
 
-![](/content/images/elcarito-CRn-_80z4SE-unsplash.jpg)
+`video({  src = './my_video.mp4' })`
+
 
 The only water on the river mirrored the red sky, sun sank on top of final Frisco peaks, no fish in that stream, no hermit in those mounts, just ourselves rheumy-eyed and hung-over like old bums on the riverbank, tired and wily.
 
@@ -28,8 +29,6 @@ corolla of bleary spikes pushed down and broken like a battered crown, seeds fal
 leaves stuck out like arms out of the stem, gestures from the sawdust root, broke pieces of plaster fallen out of the black twigs, a dead fly in its ear,
 
 Unholy battered old thing you were, my sunflower O my soul, I loved you then!
-
-![](/content/images/francesco-mazzoli-0xh3QPqcfKM-unsplash.jpg)
 
 The grime was no man’s grime but death and human locomotives,
 
