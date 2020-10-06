@@ -27,4 +27,4 @@ Given this origin, the word “good” was not in any way necessarily tied up wi
 
 ![](/content/images/thegoodcompany.gif)
 
-[style-04.mp4](/content/images/style-04.mp4 "style-04.mp4")
+\`video: /a8f92a46c59d852be77637d87c6e9532/style-04.mp4\`
