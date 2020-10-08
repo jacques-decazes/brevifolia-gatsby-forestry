@@ -11,7 +11,13 @@ export default function useBlogData() {
               date(formatString: "MMMM Do, YYYY")
               author
               title
-              hero_image
+              hero_image {
+                childImageSharp {
+                  fluid(maxWidth: 800) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
             excerpt(pruneLength: 200)
             fields {

@@ -1,16 +1,27 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "../components/Layout"
 import { graphql, Link } from "gatsby"
 import useBlogData from "../static_queries/useBlogData"
 import blogTemplateStyles from "../styles/templates/blog.module.scss"
 //this component handles the blur img & fade-ins
 import Img from "gatsby-image"
+import { useScrollPosition } from "@n8tb1t/use-scroll-position"
 
 export default function Blog(props) {
+  const [visible, setVisible] = useState(true)
+  useScrollPosition(({ prevPos, currPos }) => {
+    console.log(prevPos.y)
+    console.log(currPos.y)
+    if (currPos.y <= -200) {
+      setVisible(false)
+    } else {
+      setVisible(true)
+    }
+  })
   const data = props.data.markdownRemark
   const allBlogData = useBlogData()
   const nextSlug = getNextSlug(data.fields.slug)
-
+  console.log(window.scrollY)
   function getNextSlug(slug) {
     const allSlugs = allBlogData.map(blog => {
       return blog.node.fields.slug
@@ -22,18 +33,18 @@ export default function Blog(props) {
       return allSlugs[0]
     }
   }
-  console.log(data.frontmatter.hero)
 
   return (
     <Layout>
       <article className={blogTemplateStyles.blog}>
-        <figure className={blogTemplateStyles.blog__hero}>
-          <img src={data.frontmatter.hero_image} />
-          {/* <Img
-            fluid={data.frontmatter.hero_image.childImageSharp.fluid}
-            alt={data.frontmatter.title}
-          /> */}
-        </figure>
+        {visible && (
+          <figure className={blogTemplateStyles.blog__hero}>
+            <Img
+              fluid={data.frontmatter.hero_image.childImageSharp.fluid}
+              alt={data.frontmatter.title}
+            />
+          </figure>
+        )}
         <div className={blogTemplateStyles.blog__info}>
           <h1>{data.frontmatter.title}</h1>
           <h3>{data.frontmatter.date}</h3>
@@ -77,7 +88,13 @@ export const getPostData = graphql`
         title
         author
         date(formatString: "MMMM Do, YYYY")
-        hero_image
+        hero_image {
+          childImageSharp {
+            fluid(maxWidth: 1500) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
       html
     }

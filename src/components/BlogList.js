@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import useBlogData from "../static_queries/useBlogData"
 import blogListStyles from "../styles/components/bloglist.module.scss"
@@ -6,6 +6,7 @@ import Img from "gatsby-image"
 
 export default function BlogList() {
   const blogData = useBlogData()
+  console.log(blogData)
   function renderBlogData() {
     return (
       <div>
@@ -16,14 +17,12 @@ export default function BlogList() {
               <Link to={`/blog/${blog.node.fields.slug}`} key={blog.node.id}>
                 <li className={blogListStyles.li} key={blog.node.fields.slug}>
                   <div className={blogListStyles.list__hero}>
-                    <img src={blog.node.frontmatter.hero_image} />
-
-                    {/* <Img 
+                    <Img
                       fluid={
                         blog.node.frontmatter.hero_image.childImageSharp.fluid
                       }
                       alt={blog.node.frontmatter.title}
-                    /> */}
+                    />
                   </div>
                   <div className={blogListStyles.list__info}>
                     <h2>{blog.node.frontmatter.title}</h2>
