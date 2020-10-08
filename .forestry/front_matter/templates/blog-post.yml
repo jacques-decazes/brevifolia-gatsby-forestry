@@ -35,6 +35,10 @@ fields:
   label: hero image
   description: Enter hero image for blog post here
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
+- name: tag1
+  type: tag_list
+  default: []
+  label: tag1
 pages:
 - content/posts/erfreferfref.md
 - content/posts/sdfsdfsdf.md
