@@ -3,6 +3,9 @@ date: 2020-10-06T21:36:37.000+00:00
 hero_image: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
 title: sdfsdfsdf
 author: Robert Thoreau
+tag1:
+- ok
+- " animal"
 
 ---
 I read the other day some verses written by an eminent painter which were original and not conventional. The soul always hears an admonition in such lines, let the subject be what it may. The sentiment they instill is of more value than any thought they may contain. To believe your own thought, to believe that what is true for you in your private heart is true for all men, — that is genius.
